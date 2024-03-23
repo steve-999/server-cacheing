@@ -15,8 +15,9 @@
 <script setup lang="ts">
 
 const routes: string[] = [
-  'no-cacheing',
-  'cached-maxAge-10',
+  'no_cacheing',
+  'cached_maxAge_10_swr_true',
+  'cached_maxAge_10_swr_false',
 ]
 
 async function handleClick(route: string) {

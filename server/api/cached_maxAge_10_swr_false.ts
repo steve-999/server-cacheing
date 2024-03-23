@@ -3,4 +3,4 @@ export default defineCachedEventHandler(async () => {
   await $fetch(url);
 
   return true;
-}, { maxAge: 60 });
+}, { maxAge: 10, swr: false });
